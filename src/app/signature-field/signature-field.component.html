@@ -1,0 +1,12 @@
+
+<div style="align-items: center;">
+<small>Usando el apuntador o su dedo en su celular firme dentro del recuadro punteado.</small>
+<br><br>
+<div style="display: inline-block; border-color: black; border-width: 2px; border-style:solid;">
+<signature-pad (onBeginEvent)="drawBegin()" (onEndEvent)="drawComplete()"></signature-pad>
+</div>
+
+<div>
+    <button type="button" (click)="this.clear()" [disabled]="false">Borrar</button>
+</div>
+</div>
